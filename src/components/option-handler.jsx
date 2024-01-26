@@ -12,7 +12,7 @@ const OptionHandler = ({ e, index, isReserved, isPrime }) => {
                 })}
             />
             <div
-                className={classNames("grid content-center px-8 md:w-1/2 w-full", {
+                className={classNames("grid content-center px-8 md:w-2/3 w-full", {
                     "w-2/3 md:w-1/2": isReserved
                 })}
             >

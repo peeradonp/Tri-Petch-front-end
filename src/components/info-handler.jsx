@@ -17,7 +17,7 @@ const InfoHandler = ({ name, image, option, isReserved, offsetHeaderImage }) => 
                         "lg:w-1/12": isReserved
                     })}
                 />
-                <div className='font-name px-8'>{name}</div>
+                <div className='font-name px-8 w-2/3'>{name}</div>
             </div>
             <div className={classNames(image)} />
             <div className='md:block hidden'>
